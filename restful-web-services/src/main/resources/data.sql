@@ -1,0 +1,27 @@
+INSERT INTO user(ID, BIRTH_DATE, NAME)
+VALUES (1001, STR_TO_DATE('1994-03-03 15:30:45', '%Y-%m-%d %H:%i:%s'), 'Mark');
+
+INSERT INTO user(ID, BIRTH_DATE, NAME)
+VALUES (1002, STR_TO_DATE('1999-06-08 22:30:45', '%Y-%m-%d %H:%i:%s'), 'Gyuszi');
+
+INSERT INTO user(ID, BIRTH_DATE, NAME)
+VALUES (1003, STR_TO_DATE('1965-03-03 16:22:45', '%Y-%m-%d %H:%i:%s'), 'Marika');
+
+INSERT INTO user(ID, BIRTH_DATE, NAME)
+VALUES (1004, STR_TO_DATE('1985-03-03 14:11:45', '%Y-%m-%d %H:%i:%s'), 'Pityu');
+
+INSERT INTO user(ID, BIRTH_DATE, NAME)
+VALUES (1005, STR_TO_DATE('2002-03-03 06:30:45', '%Y-%m-%d %H:%i:%s'), 'Ocsi');
+
+INSERT INTO post(ID, DESCRIPTION, USER_ID)
+VALUES (10001, 'Description 1', 1001);
+
+INSERT INTO post(ID, DESCRIPTION, USER_ID)
+VALUES (10002, 'Description 2', 1001);
+
+INSERT INTO post(ID, DESCRIPTION, USER_ID)
+VALUES (10003, 'Description 3', 1002);
+
+# DROP TABLE post;
+# DROP TABLE user;
+
